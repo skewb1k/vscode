@@ -1,0 +1,177 @@
+{
+	"window.menuBarVisibility": "toggle",
+	"redhat.telemetry.enabled": false,
+	"workbench.tips.enabled": false,
+	"telemetry.telemetryLevel": "off",
+	"postman.telemetry.enabled": false,
+	"workbench.startupEditor": "none",
+	"window.commandCenter": false,
+	"files.maxMemoryForLargeFilesMB": 16392,
+	"output.smartScroll.enabled": false,
+	"window.openFilesInNewWindow": "off",
+	"security.workspace.trust.untrustedFiles": "open",
+	"security.workspace.trust.enabled": false,
+	"window.customMenuBarAltFocus": false,
+	"window.enableMenuBarMnemonics": false,
+	"security.workspace.trust.banner": "never",
+	"extensions.ignoreRecommendations": true,
+	"window.zoomLevel": 1,
+	"window.titleBarStyle": "custom",
+	// Font
+	"editor.fontFamily": "JetBrains Mono",
+	// "editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.fontSize": 16,
+	"editor.fontWeight": "bold",
+	"editor.fontVariations": true,
+	"editor.letterSpacing": 0.3,
+	// Editor
+	"python.terminal.executeInFileDir": true,
+	"editor.mouseWheelScrollSensitivity": 2,
+	"editor.folding": false,
+	"editor.stablePeek": false,
+	"editor.matchBrackets": "never",
+	"editor.guides.highlightActiveIndentation": false,
+	"editor.lineNumbersMinChars": 0, // undocumented
+	"editor.lineDecorationsWidth": 6, // undocumented
+	"editor.scrollBeyondLastLine": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.quickSuggestionsDelay": 0,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.inlayHints.enabled": "off",
+	"editor.cursorBlinking": "smooth",
+	"editor.parameterHints.enabled": false,
+	"editor.smoothScrolling": true,
+	"editor.codeLens": false,
+	"editor.renderWhitespace": "none",
+	"testing.automaticallyOpenPeekView": "never",
+	"references.preferredLocation": "view",
+	"scm.diffDecorations": "none",
+	"files.autoSaveWhenNoErrors": true,
+	"code-runner.runInTerminal": true,
+	"terminal.integrated.cursorBlinking": true,
+	"workbench.editor.enablePreview": false,
+	"editor.bracketPairColorization.enabled": false,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"python.createEnvironment.trigger": "off",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	// Format
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false,
+	"eslint.run": "onSave",
+	"editor.tabSize": 4,
+	"prettier.printWidth": 120,
+	"prettier.useTabs": true,
+	"black-formatter.args": ["-S"],
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2
+	},
+	"[python]": {
+		"editor.defaultFormatter": "ms-python.black-formatter"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.tabSize": 2
+	},
+	"[svg]": {
+		"editor.defaultFormatter": "jock.svg"
+	},
+	// Explorer
+	"explorer.confirmDelete": false,
+	"workbench.tree.expandMode": "doubleClick",
+	"explorer.autoReveal": false,
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.openEditors.visible": 0,
+	// Git
+	"git.autofetch": true,
+	"git.openRepositoryInParentFolders": "never",
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	// Extensions
+	"vscord.app.name": "Visual Studio Code",
+	"vscord.status.idle.check": false,
+	"vscord.status.idle.enabled": false,
+	"vscord.status.problems.enabled": false,
+	"vscord.status.details.text.editing": "In {workspace}",
+	"vscord.status.details.text.viewing": "In {workspace}",
+	"vscord.status.state.text.editing": "Working on {file_name}{file_extension}",
+	"vscord.status.state.idle.enabled": false,
+	"vscord.status.buttons.button1.enabled": false,
+	"vscord.status.buttons.button1.git.active.enabled": false,
+	"vscord.status.buttons.button1.git.idle.enabled": false,
+	"vscord.status.buttons.button1.git.inactive.enabled": false,
+	"vscord.status.image.small.editing.key": "",
+	"vscord.status.image.small.editing.text": "",
+	"vscord.status.image.small.idle.key": "",
+	"vscord.status.image.small.idle.text": "",
+	"vscord.status.image.small.notInFile.key": "",
+	"vscord.status.image.small.notInFile.text": "",
+	"vscord.status.image.small.viewing.key": "",
+	"vscord.status.image.small.viewing.text": "",
+	"peacock.affectActivityBar": false,
+	"peacock.affectTitleBar": false,
+	"emmet.triggerExpansionOnTab": true,
+	// Theme
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.tokenColorCustomizations": {},
+	"workbench.colorCustomizations": {},
+	"[go]": {
+		"editor.defaultFormatter": "golang.go"
+	},
+	"files.autoSave": "off",
+	"workbench.sideBar.location": "right",
+	"workbench.colorTheme": "GitHub Dark",
+	"update.mode": "none",
+	"go.toolsManagement.autoUpdate": true,
+	"editor.gotoLocation.multipleDeclarations": "goto",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"editor.gotoLocation.multipleImplementations": "goto",
+	"editor.gotoLocation.multipleReferences": "goto",
+	"editor.gotoLocation.multipleTypeDefinitions": "goto",
+	"editor.minimap.enabled": false,
+	"window.customTitleBarVisibility": "auto",
+	"workbench.editor.decorations.badges": false,
+	"workbench.layoutControl.enabled": false,
+	"vscode_custom_css.imports": [
+		// "file:///home/skewbik/Downloads/atom-suggest-widget.css",
+		// "file:///home/skewbik/Downloads/less-tree-margin.css"
+	],
+	"errorLens.replaceLinebreaksSymbol": "",
+	"errorLens.codeLensLength": {
+		"max": 20
+	},
+	"errorLens.messageMaxChars": 100,
+	"workbench.tree.renderIndentGuides": "onHover",
+	"breadcrumbs.enabled": false,
+	"editor.scrollbar.horizontalScrollbarSize": 10,
+	"editor.scrollbar.verticalScrollbarSize": 10,
+	"snippets.viewer.expandSnippetFiles": true,
+	"todo-tree.tree.disableCompactFolders": true,
+	"todo-tree.tree.expanded": true,
+	"todo-tree.tree.flat": true,
+	"todo-tree.highlights.enabled": false
+}
