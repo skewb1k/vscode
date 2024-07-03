@@ -1,6 +1,7 @@
 code --install-extension aaron-bond.better-comments
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension aleksandra.go-group-imports
+code --install-extension andenetalexander.vim-cheatsheet
 code --install-extension anseki.vscode-color
 code --install-extension arcticicestudio.nord-visual-studio-code
 code --install-extension arjun.swagger-viewer
@@ -86,7 +87,6 @@ code --install-extension syler.sass-indented
 code --install-extension tamasfe.even-better-toml
 code --install-extension tinkertrain.theme-panda
 code --install-extension uctakeoff.vscode-counter
-code --install-extension usama8800.tab-groups
 code --install-extension usernamehw.errorlens
 code --install-extension vinliao.fast-arrow
 code --install-extension visualstudioexptteam.intellicode-api-usage-examples

@@ -4,6 +4,8 @@
 	"workbench.tips.enabled": false,
 	"telemetry.telemetryLevel": "off",
 	"postman.telemetry.enabled": false,
+	"database-client.telemetry.usesOnlineServices": false,
+	"keyboard.dispatch": "keyCode",
 	"workbench.startupEditor": "none",
 	"window.commandCenter": false,
 	"files.maxMemoryForLargeFilesMB": 16392,
@@ -15,13 +17,12 @@
 	"window.enableMenuBarMnemonics": false,
 	"security.workspace.trust.banner": "never",
 	"extensions.ignoreRecommendations": true,
-	"window.zoomLevel": 1,
 	"window.titleBarStyle": "custom",
 	// Font
-	"editor.fontFamily": "JetBrains Mono",
-	// "editor.fontFamily": "Fira Code",
+	// "editor.fontFamily": "JetBrains Mono",
+	"editor.fontFamily": "Fira Code",
 	"editor.fontLigatures": true,
-	"editor.fontSize": 16,
+	"editor.fontSize": 18,
 	"editor.fontWeight": "bold",
 	"editor.fontVariations": true,
 	"editor.letterSpacing": 0.3,
@@ -55,7 +56,6 @@
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact"
 	},
-	"python.createEnvironment.trigger": "off",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	// Format
 	"editor.formatOnSave": true,
@@ -144,7 +144,7 @@
 	},
 	"files.autoSave": "off",
 	"workbench.sideBar.location": "right",
-	"workbench.colorTheme": "GitHub Dark",
+	"workbench.colorTheme": "Material Theme Darker High Contrast",
 	"update.mode": "none",
 	"go.toolsManagement.autoUpdate": true,
 	"editor.gotoLocation.multipleDeclarations": "goto",
@@ -173,5 +173,11 @@
 	"todo-tree.tree.disableCompactFolders": true,
 	"todo-tree.tree.expanded": true,
 	"todo-tree.tree.flat": true,
-	"todo-tree.highlights.enabled": false
+	"todo-tree.highlights.enabled": false,
+	"window.zoomLevel": 1,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	// VIM
+	"vim.useSystemClipboard": true
 }

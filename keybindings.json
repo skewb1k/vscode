@@ -96,7 +96,7 @@
 		"command": "editor.action.fontZoomOut"
 	},
 	{
-		"key": "ctrl+backspace",
+		"key": "ctrl+0",
 		"command": "editor.action.fontZoomReset"
 	},
 	{
@@ -168,11 +168,6 @@
 	},
 	{
 		"key": "ctrl+backspace",
-		"command": "-deleteWordLeft",
-		"when": "textInputFocus && !editorReadonly"
-	},
-	{
-		"key": "ctrl+backspace",
 		"command": "-workbench.action.terminal.sendSequence",
 		"when": "terminalFocus"
 	},
@@ -238,5 +233,163 @@
 		"key": "ctrl+k ctrl+m",
 		"command": "-workbench.action.toggleMaximizeEditorGroup",
 		"when": "editorPartMaximizedEditorGroup || editorPartMultipleEditorGroups"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-extension.vim_ctrl+p",
+		"when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+	},
+	{
+		"key": "ctrl+w",
+		"command": "-extension.vim_ctrl+w",
+		"when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+	},
+	{
+		"key": "ctrl+w",
+		"command": "-workbench.action.terminal.killEditor",
+		"when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported"
+	},
+	{
+		"key": "ctrl+h",
+		"command": "-extension.vim_ctrl+h",
+		"when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "-extension.vim_ctrl+k",
+		"when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
+	},
+	{
+		"command": "runCommands",
+		"key": "alt+right",
+		"args": {
+			"commands": ["workbench.files.action.focusFilesExplorer", "workbench.action.decreaseViewSize"]
+		}
+	},
+	{
+		"command": "runCommands",
+		"key": "alt+left",
+		"args": {
+			"commands": ["workbench.files.action.focusFilesExplorer", "workbench.action.increaseViewSize"]
+		}
+	},
+	{
+		"key": "alt+left",
+		"command": "-workbench.action.terminal.focusPreviousPane",
+		"when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+	},
+	{
+		"key": "alt+right",
+		"command": "-workbench.action.terminal.focusNextPane",
+		"when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+	},
+	{
+		"key": "alt+right",
+		"command": "-quickInput.acceptInBackground",
+		"when": "cursorAtEndOfQuickInputBox && inQuickInput && quickInputType == 'quickPick' || inQuickInput && !inputFocus && quickInputType == 'quickPick'"
+	},
+	{
+		"key": "ctrl+r",
+		"command": "-extension.vim_ctrl+r",
+		"when": "editorTextFocus && vim.active && vim.use<C-r> && !inDebugRepl"
+	},
+	{
+		"key": "alt+s",
+		"command": "-markdown.extension.editing.toggleStrikethrough",
+		"when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^quarto$/"
+	},
+	{
+		"key": "alt+s",
+		"command": "editor.action.revealDefinition",
+		"when": "editorHasDefinitionProvider && editorTextFocus"
+	},
+	{
+		"key": "f12",
+		"command": "-editor.action.revealDefinition",
+		"when": "editorHasDefinitionProvider && editorTextFocus"
+	},
+	{
+		"key": "ctrl+j",
+		"command": "workbench.action.quickOpenSelectNext",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "workbench.action.quickOpenSelectPrevious",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "ctrl+d",
+		"command": "-geeebe.duplicateText",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+c",
+		"command": "-search.action.copyMatch",
+		"when": "fileMatchOrMatchFocus"
+	},
+	{
+		"key": "ctrl+0",
+		"command": "-workbench.action.focusSideBar"
+	},
+	{
+		"key": "ctrl+f",
+		"command": "-extension.vim_ctrl+f",
+		"when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+	},
+	{
+		"key": "ctrl+shift+f12",
+		"command": "-editor.action.peekImplementation",
+		"when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+	},
+	{
+		"key": "ctrl+shift+f12",
+		"command": "toggleVim"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "workbench.view.extension.github-cweijan-mysql"
+	},
+	{
+		"key": "ctrl+shift+d",
+		"command": "-workbench.view.debug",
+		"when": "viewContainer.workbench.view.debug.enabled"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "-workbench.action.terminal.openNativeConsole",
+		"when": "!terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "workbench.view.extension.codium-sidebar-view-container"
+	},
+	{
+		"key": "ctrl+q",
+		"command": "-workbench.action.quit"
+	},
+	{
+		"key": "ctrl+shift+a",
+		"command": "-notification.acceptPrimaryAction",
+		"when": "notificationFocus || notificationToastsVisible"
+	},
+	{
+		"key": "ctrl+shift+/",
+		"command": "editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+a",
+		"command": "-editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "ctrl+shift+a",
+		"command": "workbench.view.extension.sidebar-panel"
+	},
+	{
+		"key": "ctrl+a",
+		"command": "-extension.vim_ctrl+a",
+		"when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
 	}
 ]
